@@ -1,0 +1,19 @@
+<mat-form-field class="input-field">
+    <mat-label>Nome</mat-label>
+    <input matInput name="nomeMedico" [(ngModel)]="NomedoMedico" />
+</mat-form-field>
+
+<mat-form-field class="input-field">
+    <mat-label>CRM</mat-label>
+    <input matInput name="crmMedico" [(ngModel)]="CRMmedico" />
+</mat-form-field>
+
+<mat-form-field class="input-field">
+    <mat-label>Especialidade</mat-label>
+    <input matInput name="especialidadeMedico" [(ngModel)]="SkillMedico" />
+</mat-form-field>
+
+<button (click)="Cadastrar()" mat-raised-button color="warn">Cadastrar</button>
+<button (click)="navigateListagem()" mat-raised-button color="warn">Listar</button>
+
+

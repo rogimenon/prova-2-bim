@@ -1,0 +1,25 @@
+td {
+    padding-left: 40px !important;
+}
+
+table {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.toolbar{
+    background-color: rgb(23, 160, 130);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+body {
+    background-color: lightgreen;
+}
